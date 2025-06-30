@@ -1,0 +1,54 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "open radio",
+      "intents": [
+        {
+          "name": "PlayStreamIntent",
+          "slots": [
+            {
+              "name": "StreamName",
+              "type": "STREAM_TYPE"
+            }
+          ],
+          "samples": [
+            "play Open Radio",
+            "play Open Radio {StreamName}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "STREAM_TYPE",
+          "values": [
+            {
+              "name": {
+                "value": "Chill"
+              }
+            },
+            {
+              "name": {
+                "value": "Hot"
+              }
+            },
+            {
+              "name": {
+                "value": "Love"
+              }
+            },
+            {
+              "name": {
+                "value": "Fitness"
+              }
+            },
+            {
+              "name": {
+                "value": "Ho-ho"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
